@@ -14,7 +14,7 @@ def network_setup(wifiname, password):
     except:
         print('failed')
         return False
-network_setup('Wessex_Int_8441','m6UGqQdWqYdX')
+network_setup('ssid','password')
 length1 = 13.35
 length2 = 13.1
 sp = Pin(46)
