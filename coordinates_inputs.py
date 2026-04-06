@@ -2,7 +2,7 @@
 import numpy as np
 import time, serial
 import socket
-ESP_IP = "192.168.28.39"
+ESP_IP = "esp32 ip" # replace with the esp32 ip
 ESP_PORT = 5005
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
